@@ -1,0 +1,36 @@
+#header{
+	height: 100px;
+	background-color: red;
+}
+#menu{
+	position: absolute;
+	right: 20px;
+	width: 200px;
+	text-align: center;
+	margin: auto;
+}
+#body{
+	text-align: center;
+}
+#footer{
+	/* make sure its the width of th body */
+	height: 50px;
+	width: 100%;
+	background-color: blue;
+	/* give the element absolute position so we can put it on the bottom */
+	position: absolute;
+	/* set bottom to 0 */
+	bottom: 0px;
+}
+.menu-items{
+	display: inline-block;
+}
+#left-footer{
+	position: absolute;
+	left: 20px;
+}
+#right-footer{
+	position: absolute;
+	right: 20px;
+}
+
